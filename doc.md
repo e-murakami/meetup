@@ -157,27 +157,3 @@ Web AppBuilder for ArcGIS を使い、作成した Web マップをアプリに�
 
 本手順書では、初歩的な操作方法についてご紹介しました。さらに、もっと高度な可視化に挑戦してみたい方は、開発リソース集の[ArcGIS Online 上のデータを可視化するための方法](http://esrijapan.github.io/arcgis-dev-resources/tips/data-visualization-procedure/) をご参照ください。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 4. 動作確認
-
-それでは、アプリを起動してみましょう。  
-アプリを開くと、Web マップが読み込まれ、表示されます。  
-マップをクリックするとクリック地点から最寄りの避難場所へのルートが表示されます。
-
-![動作確認](./img/2-1.gif)

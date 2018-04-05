@@ -26,14 +26,14 @@ Web マップで使用するデータを入手します。
 [ESRIジャパン オープンデータポータル](http://data.esrij.com/) へアクセスし、[避難場所データ](http://data.esrij.com/datasets/muroran::避難場所)を検索します。  
 
 避難場所データは、ArcGIS Online にホストされているため、独自にサービスを公開する必要はありません。  
-[ジオサービスの URL](https://services.arcgis.com/Jv1EECU3IM4ZRUev/arcgis/rest/services/Muroran_Hinanbasyo/FeatureServer/0) をコピーします。
+ジオサービスの URLをコピーします。
 
 ![サービス](./img/1-2.png)
 
 #### データの追加
 
 Web マップに、避難場所データを表示します。  
-マップビューアーを開き、[追加] をクリックします。[Web からレイヤーを追加] を選択し、コピーしたサービスの URL を入力します。  
+マップビューアーを開き、[追加] をクリックします。[Web からレイヤーを追加] を選択し、コピーしたサービスの URL を入力し、入力した URL の 「query?outFields=*&where=1%3D1」 の部分を削除します。  
 Web マップに避難場所データがレイヤーとして追加されました。
 
 ![データの追加](./img/1-3.png)
